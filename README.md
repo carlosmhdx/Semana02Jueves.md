@@ -13,10 +13,10 @@ F T = T| ✅
 F F = F| ❌
 ~T = T ❌
 ~F = T ✅
-(TF) (F) = T&|~ 
-(TF ) (FF) = T|&|
-~((TF) (FF)) F = T|&|&
-~((TF) (FF)) T = F|&|&
+(TF) (F) = T&|~ ✅
+(TF ) (FF) = T|&| ❌
+~((TF) (FF)) F = T|&|& ✅
+~((TF) (FF)) T = F|&|& ✅
 
 # Algoritmo booleano
 
